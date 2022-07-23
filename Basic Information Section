@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Survey Form Project" />
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Survey Form</h1>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h2>Basic Information</h2>
+                    <label id="basic-infomation_id">Name
+                    <input class="basic_information_txt" type="text" for="basic-information_id">
+                    </label>
+                    <label id="basic-infomation_id">E-mail
+                    <input class="basic_information_mai" type="email" for="basic-information_id">
+                    </label>    
+                    <label id="basic-infomation_id">Age
+                    <input class="basic_information_nbr" type="number" for="basic-information_id">
+                    </label>
+                    <label id="basic-infomation_id">Division
+                    <select class="basic_information_dpd" type="text" for="basic-information_id">
+                        <option value="">Choose division team...</option>
+                        <option value="backend_engineers">Backend Engineers</option>
+                        <option value="data_scientisit">Data Scientist</option>
+                        <option value="devops_enggineers">DevOps Engineers</option>
+                        <option value="frontend_engineers">Frontend Engineers</option>
+                        <option value="product_designers">Product Designers</option>
+                    </label>
+                    </select>
+                    <label class="checkbox_lbl" id="basic-indormation_id">
+                    <input class="basic_information_chk" type="checkbox" for="basic-information_id">
+                    <div class="checkbox"></div>
+                    I agree to fill out the survey honestly for the development of a better work environment
+                    </label>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Agree and Disagree</h2>
+                </div>
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
