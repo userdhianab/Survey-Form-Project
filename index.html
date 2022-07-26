@@ -22,7 +22,7 @@
                     <input class="basic_information_mai" type="email" for="basic-information_id">
                     </label>    
                     <label id="basic-infomation_id">Age
-                    <input class="basic_information_nbr" type="number" for="basic-information_id">
+                    <input class="basic_information_nbr" type="number" for="basic-information_id" min="19" max="65">
                     </label>
                     <label id="basic-infomation_id">Division
                     <select class="basic_information_dpd" type="text" for="basic-information_id">
@@ -44,6 +44,47 @@
             <section>
                 <div>
                     <h2>Agree and Disagree</h2>
+                    <label class="agreedisagree_lbl" for="agree_disagree">
+                        <ol>
+                        <li><p>There is a clear understanding of the strategic objectives of the organization</p></li>
+                        <div class="agreedisagree_rad_block">
+                        <input class="agreedisagree_rad" type="radio" name="agree_disagree" value="strongly-agree" id="strongly agree">
+                        <div class="agreedisagree_rad_div">
+                        <div class="radio"></div>
+                            Strongly Agree
+                        </div>
+                        </div>
+                        <div class="agreedisagree_rad_block">
+                            <input class="agreedisagree_rad" type="radio" name="agree-disagree"  value="agree" id="agree" checked>
+                            <div class="agreedisagree_rad_div">
+                            <div class="radio"></div>
+                                Agree
+                            </div>
+                        </div>
+                        <div class="agreedisagree_rad_block">
+                            <input class="agreedisagree_rad" type="radio"  name="agree-disagree" value="neutral" id="neutral">
+                            <div class="agreedisagree_rad_div">
+                            <div class="radio"></div>
+                                Neutral
+                            </div>
+                        </div>
+                        <div class="agreedisagree_rad_block">
+                        <input class="agreedisagree_rad" type="radio"  name="agree-disagree" value="disagree" id="disgree">
+                        <div class="agreedisagree_rad_div">
+                        <div class="radio"></div>
+                            Disagree
+                        </div>
+                        </div>
+                        <div class="agreedisagree_rad_block">
+                            <input class="agreedisagree_rad" type="radio"  name="agree-disagree" value="strongly-disagree" id="strongly disagree">
+                            <div class="agreedisagree_rad_div">
+                            <div class="radio"></div>
+                                Strongly Disgree
+                            </div>
+                        </div>
+                        
+                    </label>
+                        </ol>
                 </div>
             </section>
         </main>
